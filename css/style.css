@@ -144,3 +144,6 @@ body {
 .list li:not(:last-child) {
 	margin-bottom: 4px;
 }
+.share-bot {
+	margin-left: 650px;
+}
