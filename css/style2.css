@@ -1,0 +1,156 @@
+@import url("nullstyle.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.content {
+	background: rgba(201, 201, 201, 0.884);
+	max-width: 980px;
+	margin: 0px auto;
+	border-radius: 50px;
+	padding: 50px 0;
+}
+
+body {
+	background: rgb(149, 206, 178);
+	font-family: "Lato", sans-serif;
+}
+
+.title {
+	text-align: center;
+	margin: 0px auto 50px auto;
+	padding: 10px;
+	font-size: 60px;
+	color: rgb(0, 0, 0);
+	border: 5px solid #000;
+	max-width: 300px;
+	background: radial-gradient(circle, rgba(51, 253, 0, 0.474) 0%, rgb(255, 255, 255) 100%);
+	border-radius: 100px 100px 20px 20px;
+}
+
+.game {
+	background-color: rgba(241, 243, 239, 0.76);
+	max-width: 800px;
+	box-shadow: 0px 0px 5px 3px #000;
+	margin: 20px auto;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.game div {
+	background-color: rgba(102, 255, 0, 0.76);
+}
+
+.block1 {
+	width: 50px;
+	height: 50px;
+}
+
+.block2 {
+	width: 20px;
+	height: 200px;
+	visibility: hidden;
+}
+
+.block1:hover + .block2,
+.block2:hover {
+	visibility: visible;
+}
+
+.block3 {
+	height: 30px;
+	width: 300px;
+	visibility: hidden;
+}
+
+.block2:hover + .block3,
+.block3:hover {
+	visibility: visible;
+}
+
+.block4 {
+	width: 400px;
+	height: 20px;
+	margin: 0 0 0 250px;
+	visibility: hidden;
+}
+
+.block3:hover + .block4,
+.block4:hover {
+	visibility: visible;
+}
+
+.block5 {
+	height: 200px;
+	width: 30px;
+	margin: 0 0 0 620px;
+	visibility: hidden;
+}
+
+.block4:hover + .block5,
+.block5:hover {
+	visibility: visible;
+}
+
+.block6 {
+	width: 550px;
+	height: 20px;
+	margin: 0 0 0 100px;
+	visibility: hidden;
+}
+
+.block5:hover + .block6,
+.block6:hover {
+	visibility: visible;
+}
+
+.block7 {
+	height: 150px;
+	width: 30px;
+	margin: 0 0 0 100px;
+	visibility: hidden;
+}
+
+.block6:hover + .block7,
+.block7:hover {
+	visibility: visible;
+}
+
+.block8 {
+	width: 220px;
+	height: 20px;
+	margin: 0 0 0 100px;
+	visibility: hidden;
+}
+
+.block7:hover + .block8,
+.block8:hover {
+	visibility: visible;
+}
+
+.block9 {
+	width: 20px;
+	height: 100px;
+	margin: 0 0 0 300px;
+	visibility: hidden;
+}
+
+.block8:hover + .block9,
+.block9:hover {
+	visibility: visible;
+}
+
+.block10 {
+	color: #fff;
+	width: 200px;
+	height: 180px;
+	background: url("../img/zd.gif") 0 0 no-repeat;
+	margin: 0 0 0 300px;
+	visibility: hidden;
+}
+.block9:hover + .block10,
+.block10:hover {
+	visibility: visible;
+}

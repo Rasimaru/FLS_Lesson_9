@@ -1,0 +1,146 @@
+/* &display=swap */
+
+@import url("nullstyle.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.article {
+	margin: 0 auto;
+	max-width: 810px;
+	padding: 152px 0 120px 0;
+}
+body {
+	background: #fff;
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	color: #1e212c;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin-bottom: 26px;
+}
+.title-bar > * {
+	color: #787a80;
+	display: inline-block;
+}
+.title-bar {
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+}
+
+.date {
+	margin-right: 24px;
+}
+.date::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/icon/Calendar.svg") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+}
+.duration {
+	margin-right: 390px;
+}
+.duration::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/icon/Clock.svg") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+}
+
+.socials {
+	display: inline-block;
+}
+.share {
+	display: inline-block;
+	padding: 3px 0;
+}
+.share span {
+	font-size: 16px;
+	margin-right: 12px;
+	color: #1e212c;
+	font-weight: 700;
+}
+.socials li {
+	display: inline-block;
+	line-height: 0.7;
+}
+.socials li:not(:last-child) {
+	margin-right: 12px;
+}
+
+.facebook {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/icon/Facebook.svg") 0 0 no-repeat;
+}
+.twitter {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/icon/Twitter.svg") 0 0 no-repeat;
+}
+.linkedin {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/icon/Linked-In.svg") 0 0 no-repeat;
+}
+
+.article-image {
+	margin-bottom: 60px;
+}
+.article-text {
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 63px;
+}
+.article-text > p:first-of-type {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	margin-bottom: 24px;
+}
+.article-text p:nth-child(2) {
+	margin-bottom: 32px;
+}
+.article-text p:nth-child(3) {
+	margin-bottom: 48px;
+}
+.qoute {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	margin-bottom: 48px;
+	padding-left: 58px;
+}
+.qoute::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/icon/Braces.svg") 0 0 no-repeat;
+	width: 28px;
+	height: 20px;
+	margin: 0 30px 0 -58px;
+}
+.list,
+.list p {
+	margin-bottom: 24px;
+}
+.list li {
+	background: url("../img/icon/Check.svg") 0 5px no-repeat;
+	padding-left: 32px;
+}
+.list li:not(:last-child) {
+	margin-bottom: 4px;
+}
